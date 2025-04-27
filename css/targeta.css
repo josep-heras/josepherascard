@@ -1,0 +1,64 @@
+:root {
+  --text-color: #ffffff;
+  --card-color: #7890df;
+  --secondary-color: #808080;
+  --tertiary-color: #e9518b;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 12px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.card {
+  background-color: var(--card-color);
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px 10px;
+  box-shadow: 0px 0px 35px #0007;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 40px;
+}
+
+.secondary_card {
+  background-color: var(--secondary-color);
+}
+
+.tertiary_card {
+  background-color: var(--tertiary-color);
+}
+
+.card_title {
+  font-size: 22px;
+  margin: 0;
+}
+
+.card_subtitle {
+  font-size: 13px;
+  font-weight: 350;
+  letter-spacing: 2px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.card_content {
+  font-size: 9px;
+  padding: 10px;
+  padding-bottom: 0;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.card_img {
+  width: 100px;
+  border-radius: 50%;
+}
